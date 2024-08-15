@@ -36,16 +36,11 @@
   "n8n": {
     "n8nNodesApiVersion": 1,
     "credentials": [
-      "dist/credentials/ExampleCredentialsApi.credentials.js",
-      "dist/credentials/HttpBinApi.credentials.js",
       "dist/credentials/LakeApi.credentials.js",
       "dist/credentials/LakeApiTokenApi.credentials.js"
     ],
     "nodes": [
-      "dist/nodes/ExampleNode/ExampleNode.node.js",
-      "dist/nodes/HttpBin/HttpBin.node.js",
-      "dist/nodes/Lake/Lake.node.js",
-      "dist/nodes/Ldap/Ldap.node.js"
+      "dist/nodes/Lake/Lake.node.js"
     ]
   },
   "devDependencies": {

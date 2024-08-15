@@ -44,7 +44,7 @@ export class Lake implements INodeType {
 				required: true,
 				displayOptions: {
 					show: {
-						authentication: ['lakeApiToken'],
+						authentication: ['lakeApiTokenApi'],
 					},
 				},
 			},
